@@ -9,6 +9,6 @@
 (图片有些大)
 
 
-<img src="https://raw.githubusercontent.com/YunrZhao/PathLayoutManager/master/img.gif" alt="GitHub" title="效果" width="1080" height="1920" />
+<img src="https://raw.githubusercontent.com/YunrZhao/PathLayoutManager/master/img.gif" alt="GitHub" title="效果" width="480" height="800" />
 
 原库地址：https://github.com/wuyr/PathLayoutManager
