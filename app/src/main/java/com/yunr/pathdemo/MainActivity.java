@@ -40,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
         pathRecyclerView.setAdapter(new DemoAdapter(20));
         pathLayoutManager.scrollToPosition(0);
 
+        pathRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                int position = pathLayoutManager.findClosestPosition();
+                testView.setText("滑动过程距离最近的Position:" + position);
+            }
+        });
     }
 
     public static int dip2px(Context context, float dipValue) {

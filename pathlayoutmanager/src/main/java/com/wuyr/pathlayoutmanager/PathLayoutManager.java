@@ -853,7 +853,7 @@ public class PathLayoutManager extends RecyclerView.LayoutManager implements Rec
     /**
      * 找出离目标落点最近的Item索引
      */
-    private int findClosestPosition() {
+    public int findClosestPosition() {
         int hitPos = -1;
         List<PosTan> posTanList = getNeedLayoutItems();
         if (posTanList.size() > 1) {
