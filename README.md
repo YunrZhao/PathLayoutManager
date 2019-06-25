@@ -7,7 +7,8 @@
 效果:
 
 (图片有些大)
-![效果](https://s19.aconvert.com/convert/p3r68-cdx67/7d2vt-xhhau.gif '效果')
+
+![](https://s19.aconvert.com/convert/p3r68-cdx67/7d2vt-xhhau.gif '效果')
 
 
 原库地址：https://github.com/wuyr/PathLayoutManager
