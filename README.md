@@ -8,7 +8,7 @@
 
 (图片有些大)
 
-![](https://s19.aconvert.com/convert/p3r68-cdx67/7d2vt-xhhau.gif '效果')
+![](https://raw.githubusercontent.com/YunrZhao/PathLayoutManager/master/img.gif '效果')
 
 
 原库地址：https://github.com/wuyr/PathLayoutManager
